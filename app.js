@@ -84,6 +84,6 @@ app.get("/time", function (req, res) {
 // app.listen(tcp/80, function () {
 //     console.log("Server started on port 3000");
 // });
-app.set( 'port', ( process.env.PORT || 5000 ));
+// app.set( 'port', ( process.env.PORT || 5000 ));
 
 app.listen( app.get( 'port' ), function() {   console.log( 'Node server is running on port ' + app.get( 'port' ));   });
